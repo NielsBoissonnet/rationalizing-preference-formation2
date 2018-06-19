@@ -1,0 +1,574 @@
+
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsmath}
+\usepackage{amsthm}     %For theorems
+\usepackage{amssymb}
+\usepackage{graphicx}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newtheorem{lemma}{Lemma}
+\author{Niels Boissonnet}
+\usepackage{geometry}
+\linespread{1.25}
+\geometry{hmargin=3cm,vmargin=3cm}
+\title{Rationalizing preferences transformation by partial deliberation}
+\begin{document}
+\maketitle
+
+\begin{center}
+\large{\textbf{Extremely preliminary and incomplete, please do not quote.}}
+\end{center}
+\vspace{0,5cm}
+
+Accounting for preference formation is one of the most promising way to rationalize unexplained behaviors and to reconcile rational choice theory with competing paradigms in other social sciences. Indeed, preference formation could be applied to many economic contexts, such as advertising, the evolution of political preferences or institutional inertia. But it could also help to bridge the gap between the theories grounded on rational choice behavior and those emphasizing social conditioning. Nevertheless, we stumble upon a problem when incorporating preference formation within the toolbox of economic theory: preference formation may be theoretically useless when providing \textit{ad hoc }explanations.  As Grüne-Yannoff and Hansson (2009, p. 7) put it, "it is possible to explain almost anything on the unrestricted hypothesis that consumers' preferences are changing". To avoid this pitfall, it is thus necessary to build a theory of preference changes explaining why some preferences transformations are feasible while others are not.\footnote{"The first thing that economists need in order to incorporate preference change in their model is an appropriate theoretical structure". (Grüne-Yannoff and Hansson, 2009, p. 7)} This theory would aim at formulating the conditions that make some preference transformations compatible with rationality; thus, restricting the set of consistent preference transformations. 
+
+ This paper presents a first step toward a theory providing these conditions. It models a mechanism of preference formation that is driven by awareness: the process of \textit{partial deliberation on values}. This mechanism is in fact based on five hypotheses whose conceptual grounds have been developed elsewhere.\footnote{In a companion paper I develop the philosophical background of partial deliberation and I justify each of these hypothesis.}
+ 
+ \begin{enumerate}
+
+\item Preferences are "induced by values". This hypothesis is necessary to explain how preferences change, for to explain how they evolve it is required to 1) assign a motivational ground to preferences and 2) to understand what may influence the formation of this ground. 
+\item These sets of values form systems that can be ordered by what I call an \textit{axiological relation of consistency}, denoted $\trianglelefteq$. Although partial deliberation explains why agents have heterogeneous preferences, this relation is meant to be universal. It affects the behavior of every agents in the same way, but it is only partially (and heterogeneously) known by them. 
+\item The decision maker (DM) is partially aware of some of these values, i.e. he is able to reflect either on them or on the arguments that support them. Hence, preferences are grounded on foreground values, of which the DM is aware, and on background values, of which he is not.   
+\item The DM can commit to (or reject) values only if he is aware of them.\footnote{Awareness could also be defined by this ability.} 
+\item Basing is decision on his background values, the DM chooses the best value system that his awareness makes reachable to him ("best" in the sense of $\triangleleft$). 
+ \end{enumerate}
+To summarize, the process of partial deliberation is based on the idea that the DM deliberates rationally about the "ends" to follow (i.e. by \textit{maximizing} the consistency of his value system), but he can only do so locally on the restricted set of values he is aware of.  
+ 
+Partial deliberation relies on the idea that a several values inducing preferences are not permanently questioned by the DM. This is consistent with what experiments of psychologists tend to indicate. For instance, Maio and Olson's experiment (1998) suggests that values are truisms that does not need to be questioned by the DM to influence his. However, Maio and Olson also show that people tend to change their values when they are given the opportunity to reflect on the arguments that support them. In other words, people do not deliberate systematically on their values, but when they do so, they are more likely to adopt (or to reject) them. 
+
+
+Partial deliberation provides the \textit{apparatus} to rationalize such behavior ; it is based on the idea that the rationality behind preference formation is made of two components:
+\begin{enumerate}
+\item The relation of axiological consistency that represents the axiological rationality of the DM.
+\item The ability of the DM to reflect on some of his values and thus to (partially) use the relation of axiological consistency.
+\end{enumerate}
+ Hence, to be rational an awareness driven preference change has to be structured so that an order, $\trianglelefteq$, exists and reproduces the behavior of the preference formation rule. The first step of this paper is to provide an axiomatic characterization that guarantees that it does. More concretely a preference change follows a transition rule : a ternary relation between 1) the value systems that the DM commits to \textit{ex ante}, 2) the value system he commits to \textit{ex post} and 3) his awareness \textit{ex post}. The axioms dealing with the "theoretical structure" of this ternary relation ensure that it is induced by a binary relation (i.e. the relation of axiological consistency) capturing the five hypotheses of partial deliberation mentioned above. 
+
+
+However, a relation of axiological consistency inducing a preference change is not in general unique. The issue is that for a rational DM some "awareness paths" of preference change may not be feasible; there may be no sequence of awareness changes that yields a change from a value system to another. This means that it might be irrational for a DM to turn his system of values in a certain way and thus to change his preferences on some issues. Thus, this lack of uniqueness indicates what are the preference changes we cannot observe.  As a second step, I investigate some these situations and exhibit the structure of the axiological consistency relation that may imply it. 
+
+Since this characterization is very general, I then explore some peculiar structures of preference changes and show what kind of awareness path can be ruled out within these structures. The "anything goes structure" relies on the principle that every value is worth adopting. I show that with such a structure the relation of consistency is simply a partial order that follows the structure of the inclusion relation. However, this structure does not capture an appealing property of partial deliberation : the fact that being aware sequentially of a set of values does not imply the same outcome as being aware simultaneously of these values. I then deal with a partitioned approach in which values are clustered in antagonist groups. This structure gives rise to sequential changes and can be characterized as soon as the relation of axiological consistency incorporates a rules to rank the elements of each cluster.
+
+
+
+In the third part of the paper I extend the framework to an euclidean one.  This framework allows functional analysis of partial deliberation. It supposes investigates not only the values the DM commits to but the way he prioritizes some of them. 
+
+
+The first section states the static framework, on which according to the first hypothesis, the mechanism of partial deliberation is based  : preferences rely on some set of values. In the second section I elaborate the framework and explain why it 
+\paragraph{Related literature:}
+
+For a decade, there have been many attempts to understand the causes and consequences of preference changes. Cyert and DeGroot (1975) have proposed a model of "adaptive utility" in which the decision maker is aware that his preferences may change and adapts his behavior. In a different framework, some authors have provided a representation in which the DM anticipates that he might change a preferences (Kreps, 1979, Gul and Pesendorfer, 2001) and speculate over this potential change. Such approaches aim at clarifying how rational agent should deal with these changes. They focus on the consequences of these changes for rational choice theory and do not explain how and why they occur.
+
+
+Becker's famous account for taste intents to explain changes in preference. But the causes he emphasizes are different from causes of partial deliberation. He invokes habits formation. Rhetorically Becker argues that imagination plays a role in the process by providing people with heterogenous "imagination capital"\footnote{"The analysis in this book allows people
+to maximize the discounted value of present and future utilities partly
+by spending time and other resources to produce "imagination" capital
+that helps them better appreciate future utilities". Becker 1996, p. 11 } but, in his view, imagination serves to anticipate the effect of habits formation. Becoming aware does not \textit{per say }changes what the DM aims at.   
+
+By contrast, my goal is to investigate how awareness changes affects preferences changes. To do this I use the reason based approach of Dietrich and List (2013,2017). While in their paper preferences are induced by "reasons" or "salient properties" they are induced by values in mine.  However, they do not deal with preference changes.
+
+
+
+
+To my knowledge,  this paper is the first to study how awareness changes can yield changes in the preferences.  
+
+
+
+
+
+
+
+
+\section{Some primitives for partial deliberation}
+Let $X$ denote a finite set of alternatives and $\mathcal{P}(X)$ the set of every subspaces of $X$. These alternatives can indifferently be seen as actions, consequences or policies. The DM is provided with a preference relation over these alternatives that characterizes his behavior. However, these preferences are induced by the value system of the DM. For instance, Bob would rather vote for the liberal candidate \textit{because} he (tacitly) believes that free market is efficient and inequalities are unfair.\footnote{The concept of belief should not be taken as a factual belief. Therefore it is not, in my framework, a probability distribution over a set of possible states. A value is an evaluative belief of the form "something is good". Thus saying that the DM is committed to a value is to say that the DM believes that something is good.} Therefore, a value system does not only says that the DM prefers an alternative to another, it \textit{explains} why he does. Formally speaking, I denote $\hat{V}$ the (finite) set of every of those values and  $\mathcal{V}$ the set of all subsets of $\hat{V}$. An element of $\mathcal{V}$ is called a value system. In accordance with the first hypothesis of partial deliberation, the choice behavior is characterized by a family $(\preceq_V)_{V\in\mathcal{V}}$ of preference relations over $X$. On can also define $\sim_V$ and $\prec_V$ as the symmetric and the antisymmetric parts of $\preceq_V$ for each $V\in \mathcal{V}$. Following Dietrich and List (2013), this family is induced by a value system if there exists a \textit{weighing relation }$\geq \subseteq \mathcal{V}\times \mathcal{V}$ :
+\[
+x\preceq_{V} y \iff \{v\in V: x\in v \}\leq \{v\in V: y\in v \}
+\]
+The idea is that the DM prefers an alternatives $x$ to the alternative $y$ if the subset of her values system $V$ with which is consistent $y$  is $(\leq)$-better than the subset of her values system with which $x$ is consistent. 
+\vspace{0,5cm}
+
+\noindent 
+\textbf{Example:} Let say that the system of values of the DM is compounded only of two values, $v_1$, "believing that free market is good", and  $v_2$, "believing that inequalities are unfair". Then a political project which is consistent with free market and which deals with inequalities will be perceived as better by the DM, than a political project that is only consistent with free market. 
+
+\vspace{0,5cm}
+
+
+Dietrich and List (2013) give two axioms ensuring that $(\preceq_V)_{V\in\mathcal{V}}$ is induced by a value system.\footnote{The first axiom says that the preference relation does not depend on values that are outside of $V$. The second states that if two systems ($V$ and $V'$) of values can be discriminated by values that are not consistent with two alternatives $x$ and $y$, then the preference between $x$ and $y$ cannot be reversed ($x\preceq_V y\iff x\preceq_{V'} y$).} They also provide a stronger characterization that allows the weighing relation to be represented by an additive function. For applications of values change on the preference of the DM I will assume this additive representation, so that there exists $\psi$ such that :
+
+\[
+x\preceq_{V} y \iff \displaystyle \sum_{v\in V: x\in v}\psi(v)\leq \displaystyle \sum_{v\in V: y\in v}\psi(v)
+\]
+So far I have ensured sure that partial deliberation relies on a framework satisfying the first hypothesis, namely that fact that preferences are induced by values. I now need to describe the dynamic components of the model.
+\\
+
+
+Dietrich and List do not investigate how and why the value system of an individual changes. My goal is to clarify the preference formation rule by which conducts this change. This preference formation rule is modeled as a transition, $\rightarrow$, from the \textit{ex ante} system of values the DM commits to, generically denoted $V$, and the \textit{ex post} system of values, denoted $V'$. 
+
+
+
+In partial deliberation, this transition is driven by the fact that the DM's awareness is changing. Thus I need to consider subsets of values the agent is aware of \textit{ex post}. This subset is generically denoted $A$ and it belongs to $\mathcal{A}\subseteq \mathcal{V}$. I denote a preference formation rule as a family $(\rightarrow_{A})_{A\in\mathcal{A}}$. $V\rightarrow_{A}V'$ means literally that when the DM becomes is aware of $A$ her system of values $V$ turns into $V'$.\footnote{Hence, the relation $\rightarrow\in \mathcal{V}\times \mathcal{V}\times \mathcal{A}$ can be thought as a ternary relation.  However, from my knowledge, this way of seeing the problem is not helpful in our context.}
+
+\begin{definition}
+A value system $V$ is said to lead to $V'$ through $A$ if $V  \rightarrow_A V'$.
+Moreover, the DM is said to change the motivational status of the value $v$ if $v\in V\triangle V'$ and $V  \rightarrow_A V'$.\footnote{So make this last denomination clear, note that values belonging to $V\triangle V'$ ($\triangle$ being the symmetric difference) are either the values that the DM decided to adopt ($V'\backslash V$) during the preference formation process, or the values he decided to reject ($V\backslash V'$).}  
+\end{definition}
+  
+ In what follows, I assume that for any $(A,V)$ there exists $V'$ (potentially equal to $V$) such that $V\rightarrow_{A}V'$. This assumption is almost tautological. It simply implies that, for a given level of awareness and an \textit{ex ante} value system, a transition rule has to lead "somewhere". In the same fashion, I assume that for any $V'$ there exists $A$ such that $\emptyset \rightarrow_A V$. This means that the DM is always better with a system of values than with no values at all: the DM "abhors a vacuum". 
+ 
+
+Now that the basic notations have been given, it is possible to account for the way the preference formation rule can satisfy the remaining hypotheses of partial deliberation. The mechanism of partial deliberation proceeds as follow. \textit{Ex ante}, the DM's values belong to the set $V$. But, \textit{ex post}, his awareness becomes $A$ so that he can change the motivational status of the values belonging to $A$ and, in so doing, he alters the set of values he commits to \textit{ex post}. Note that according to the third and the fourth hypothesis of partial deliberation, he can only change the motivational status of values he is aware of. Therefore the part of $V$ the DM is not aware of should not change and the DM cannot decide to commit to values he is not aware of. This means that $V\rightarrow_{A} V$' must imply that there exist $ B$ contained in $A$ such that $V'=B\cup (V\backslash A)$. In other words the DM must be able to reach $V'$ from $V$ with awareness $A$. 
+
+\begin{definition}
+A value system $V'$ is said to be reachable from $(V,A)$ if $V'=B\cup (V\backslash A)$ for some $B\subseteq A$. 
+\end{definition}
+
+The fact that $V'$ is reachable does not explain why the DM indeed changes the set of values that induces his preferences. According to the fifth hypothesis this change results from a (maximization) decision to change. This, however, leaves open the question of the criterion that helps the decision maker to make this decision. In the framework of partial deliberation, this criterion is modeled by  a \textit{relation of axiological consistency}, a relation that I denote $\trianglelefteq\in \mathcal{V}\times \mathcal{V}$. Let also denote $\triangleleft$ it's antisymmetric part and $	\triangledown$ it's symmetric part. The existence of the relation of axiological consistency is based on the second hypothesis of partial deliberation: values systems can be ranked by their axiological consistency $\trianglelefteq$. This relation is on sets of values and it ranks the \textit{consistency} of the relation within those sets. 
+
+One way to support this idea is by arguing that some value systems are more consistent than others. For instance, consider the values $r=$"being racist is legitimate" and $e=$"thinking that it is legitimate to treat every human equally". $r$ and $e$ may be seen as conflicting values. Thus relation of axiological consistency can be expected to rank $\{e,r\}$ lower than $\{r\}$ or $\{e\}$. With the relation of axiological consistency the fifth hypothesis of partial deliberation can be stated by saying that the DM chooses the best value system when compared to value systems he can reach with his awareness. Thus, formally this condition is expressed by the fact that for all $B$ contained in $A$, we have that $ B\cup (V\backslash A)\trianglelefteq V'$.
+
+To see how partial deliberation operates on the example I have just given, suppose that, \textit{ex ante}, the DM commits to the value system $\{e,r\}$ and that he suddenly becomes aware of $\{r\}$. Then partial deliberation implies that, \textit{ex post}, he is to commit to $\{e\}$ since  $\{e,r\}\triangleleft  \{e\}$ and the DM is aware $r$ so that he can he can drop this value from his value system. What suggests this example is that even if the DM is not aware of $e$, this value plays a role in his process of preference formation. Conceptually this is because he commits implicitly to $e$ but he is only able to question his commitment to $r$. These values being mutually inconsistent, he chooses to reject $r$. 
+The following definition summarizes formally how partial deliberation proceeds. 
+
+
+\begin{definition}
+An preference formation rule $(\rightarrow_{A})_{A\in\mathcal{A}}$ is said to be induced by partial deliberation if there exists a reflexive, transitive and complete relation $\trianglelefteq$ such that, 
+
+
+
+
+\begin{equation}
+ V\rightarrow_{A} V'\iff  \left\{
+      \begin{aligned}
+         \exists B\subseteq A, V'=B\cup (V\backslash A)\\
+       \forall B'\subseteq A,   B'\cup (V\backslash A)\trianglelefteq V'\\      
+      \end{aligned}
+    \right.
+    \label{TH1}
+\end{equation}
+\end{definition}
+Note that for a given couple $(A, V)$, an awareness driven preference formation rule does not necessarily lead to an unique outcome. Two value systems may be equivalent axiologically speaking and reachable with an awareness set $A$. In other words, $V'$ belongs to the following set: 
+\[
+\{B\cup (V\backslash A): B\subseteq A\mbox{ and } \forall B'\subseteq A,   B'\cup (V\backslash A)\trianglelefteq V'\}
+\]
+
+
+Of course, a preference formation rules are not in general induced by a relation of axiological consistency, so my first goal is to characterize when they are. Let formulate the axioms that characterize the class of preference formation rules that can be induced by such a relation. In other words, I intend to give the conditions for the five hypotheses to be satisfied.
+
+
+
+\section{Characterizing the axiological relation of consistency}
+In this section I give six axioms consistent with the claims of partial deliberation and show how they characterize a preference formation rules that can be induced by partial deliberation.  
+
+The first axiom simply translates the fourth hypothesis of the partial deliberation. It says that partial deliberation is driven by awareness and by nothing else, i.e. the DM can only change the values he is aware of. 
+ \\
+ 
+ \noindent
+\textbf{Axiom 1 : \textit{"Preference changes are driven by awareness."}} If for all $V,V'$ and $A$, $V\rightarrow_{A} V' \implies V\triangle V'\subseteq A$.
+\\
+
+ Consequently, the difference between the \textit{ex ante} value system of the DM and his \textit{ex post} value system has be included in $A$, either because he commits to new values in $V'\backslash V$, or because he no longer commits to values in $V\backslash V'$.
+
+One may argue that some preference changes do not fulfill this property. Someone developing an addiction is, for instance changing his preferences but he does not control this change. The smoker wants pleasure and he does not aim to change his preferences. In this case, preferences change would not be due to awareness. It simply corresponds to a physiological response. Some preferences change can be seen, however, as driven by awareness changes. This is the intuition we have from feminist groups for instance that engage in "awareness campaign" in order to change behavior of citizens. This axiom gives what constraint the ability of the DM to change his value system. Now we need to build what, from the point of view of the relation of axiological consistency, makes of the \textit{ex post} outcome of partial deliberation a "maximum" in the sense of the relation of axiological consistency. 
+
+Axiom 2 relates this "maximum" to the awareness constraint of the DM. It says that when $V$ leads to $V'$ through $A$, every value systems that are reachable from $(A,V)$ must be related directly in some to way to $V'$. In other words, there should be an awareness set $A'$ such that either $B\cup (V\backslash A)\rightarrow_{A'} V'$ or $V'\rightarrow_{A'} B\cup (V\backslash A)$.
+\\
+
+\noindent
+\textbf{Axiom 2 : \textit{"Awareness connexion between mutually feasible system".}} If $V\rightarrow_{A} V'$ then $\forall B\subseteq A$ $B\cup (V\backslash A)\rightarrow_{A'} V'$ or $V'\rightarrow_{A'} B\cup (V\backslash A)$. 
+\\
+
+  Conceptually, this axiom suggests that, since $V$ and $V'$ are related through an awareness set, the DM must be able to compare every $B\cup (V\backslash A)$ with $V'$. From the point of view of the relation of axiological consistency, this axiom can be understood as local completeness axiom: it says that every feasible value systems must be related to the \textit{ex post} outcome $V'$. After all, according to the fourth hypothesis of partial deliberation, awareness is by construction an ability to change the motivational status of reachable values. From the point of view of the relation of axiological consistency, this axiom is also the first to includes the idea of "maximality", since it only requires that the outcome \textit{ex post} of every preferences changes feasible, and thus the maximums to be related to others reachable values systems.  
+
+To keep on building the notion of "maximality" we first need to impose a key property of partial deliberation: the relation of consistency does not vary with awareness. The slogans of this principle can be stated by saying that "awareness does not value values" or "awareness brings nothing but flexibility". Conceptually, this principle is based on the idea that awareness only makes values reachable to the DM, but it does not affect the relation that allows the DM to rank these value systems. If this property were not to be satisfied, the axiological relation of consistency would depend on the awareness of the DM. Thus, to satisfy (1) such situation should be ruled out. This situation can be ruled out using the following axiom.
+
+To see what I have in mind, consider a preference formation rule in which the slogans are not satisfied. Suppose that $\hat{V}= \{a,b,c\}$ and that we have $\{a,b,c\}\rightarrow_{\{a,b,c\}} \{b,c\}$,  $\{a,b,c\}\rightarrow_{\{a,b\}} \{a,c\}$ and not $\{a,b,c\}\rightarrow_{\{a,b\}} \{b,c\}$. While in each of these situations the DM has the same value system \textit{ex ante}, the systems of values he commits to \textit{ex post} are different. This difference seems due to the fact that the DM is aware of $c$ in the first case while he is not in the second. But in both cases the motivational status of $c$ has not been altered. This would suggest that the fact of being aware changes the outcome of preference formation by itself. The DM changes his system not only because his awareness makes the \textit{ex post} value system reachable, but because awareness values this system. In other words, awareness brings something more than flexibility. 
+\\
+
+\noindent
+\textbf{Axiom 3 : \textit{"Restricting awareness to relevant values does not change the outcome".}} If for some $A,A'$ and $B$ such that $B\subseteq A \subseteq A'$,  $V\rightarrow_{A'} B\cup (V\backslash A)$ then $V \rightarrow_{A} B\cup (V\backslash A)$. 
+\\
+
+
+
+
+
+Axiom 3 simply says that since $B\cup (V\backslash A)$ is reachable from ($A,V$) and since it is also reachable from $(A',V)$, the fact $V$ leads to $B\cup (V\backslash A)$ through $A'$ must imply that $V$ also leads to $B\cup (V\backslash A)$ through $A$. In other words, having the additional values belonging to $A'\backslash A$ in mind does not change anything \textit{ex post} because the DM does not change their motivational status when he is aware of them. These values are not relevant to him ; being aware of them does not change their motivational status. 
+
+However, this axiom does not rule out every situations in which this principle is satisfied. To see this, take the following preference formation rule implying the following preference transformations: $\{a,b,d\}\rightarrow_{\{c,d\}} \{a,b,c,d\}$ and  $\{a,d\}\rightarrow_{\{a,b,c\}} \{a,b,c,d\}$ but not $\{a,d\}\rightarrow_{\{b,c,d\}} \{a,b,c,d\}$. In this case, we cannot use the inclusion between the two spaces of awareness of the DM ($\{c,d\}$ and $\{a,b,c\}$). Thus, axiom 3 does not apply. But the two first two statements suggest that $\{a,b,c,d\}$ is axiologically better than  $\{a,b,d\}$ and $\{a,d\}$. Because $d$ does not seem to be relevant, adding in the awareness does not change anything. A fourth axiom is therefore required to rule out those situations. 
+\\
+
+\noindent
+\textbf{Axiom 4 : \textit{"Awareness invariance of the outcome for pairwise transformation that lead to the same outcome"}} If for some $A,A'$ and $B\subseteq A$, $V\rightarrow_{A}V'$ and $B\cup (V\backslash A)\rightarrow_{A'} V'$ then $B\cup (V\backslash A)\rightarrow_{A}V'$. 
+\\
+  
+  
+  Axiom 4 says that when $V$ leads to $V'$ through $A$ and a value system which is reachable from $(A,V)$ also leads to $V'$ but through $A'$ it also needs to lead to $V'$ through $A$. As for axiom 3, the main idea behind this axiom is that awareness leads to a preference change only because it makes a system of values available but valuable. Since $V'$ is reachable from $(A,B\cup (V\backslash A))$ and $(A,V)$ there is no reason that it does not lead to the same outcome \textit{ex post}. Contrary to axiom 3, it does not require that $A\subseteq A'$, but it involves a twofold relation leading to $V'$, adding $V\rightarrow_{A}V'$ as a necessary condition. Indeed, the fact that $V\rightarrow_{A}V'$ implies that even if $A\not \subseteq A'$, the extra values belonging to $A\backslash A'$ are not relevant since both $V$ and  $B\cup (V\backslash A)$ lead to the same outcome \textit{ex post}.
+  
+  The last two axioms imply the relation of axiological consistency to be independent of awareness. The following axiom says that the decision needs only one stage to reach the best system of values as soon as this system is reachable through his awareness. 
+\\
+
+
+
+
+\noindent
+\textbf{Axiom 5 : \textit{"Commitment to the best system of values".}} If for some $A\in \mathcal{A}$,  $V\rightarrow_{A}V'\rightarrow_{A}V''$ then $V''\rightarrow_{A'}V'$ for some $A'$. 
+\\
+
+
+This axiom says that at a given level of awareness $A$, there is no intermediate system of values $V'$ to which the DM would commit to if this system is not as good as the best system $V''$. In other words, if  $V\rightarrow_{A}V'\rightarrow_{A}V''$ then $V\rightarrow_{A}V''$ directly and the fact that $V'\rightarrow_{A}V''$ implies that $V'$ is reachable from $(A,V'')$. 
+\\
+
+With these five axioms it is possible to demonstrate that, when changing his value system, the DM chooses the best system his awareness makes reachable to him. The next lemma account for such property. 
+\\
+
+\noindent
+\textbf{Lemma 1: }\textit{If axioms $1-5$ are satisfied then for all $V,V'$ and $A$, $V\rightarrow_{A} V'$ implies that $\forall B\subseteq A, B\cup (V\backslash A) \rightarrow_{A} V'$.}\footnote{In fact it is possible to show that when axiom 1 is satisfied, axioms 2-6 are equivalent to this to the fact that for all $V,V'$ and $A$, $V\rightarrow_{A} V'$ implies that $\forall B\subseteq A, B\cup (V\backslash A) \rightarrow_{A} V'$.}
+\\
+
+\noindent
+\textbf{Proof :} To prove Lemma 1 we first need to prove that if for some $A\in \mathcal{A}$,  $V\rightarrow_{A}V'$ then $V \cap V' \rightarrow_{A} V'$. So suppose that for some $A\in \mathcal{A}$,  $V\rightarrow_{A}V'$. By axiom 1 $V\backslash A\subseteq V'$ so that $V\backslash A \subseteq V\cap V'$. Thus 
+\begin{equation}
+V\cap V'=B\cup (V\backslash A)
+\label{Bad}
+\end{equation}
+for some $B\subseteq A$. By axiom 2 we have that there exists $A'$ such that either $V\cap V'\rightarrow_{A'} V'$ or $V'\rightarrow_{A'}V\cap V'$. In the first case we can apply axiom 3 and we have that $V\cap V'\rightarrow_{A} V'$. In the second case, by axiom 2 and (\ref{Bad}), we have that $V'\rightarrow_{A'}V\cap V'$ implies that $V'\rightarrow_{A}V\cap V'$ therefore by axiom 5  $V\cap V'\rightarrow_{A}V'$ and the claim is proven. 
+
+Now to prove Lemma 1 let $V,V', A$ and $B$ such that
+\begin{equation}
+V\rightarrow_{A} V'
+\label{Cont'2}
+\end{equation}
+with $B \subseteq A$. If there exists $A'$ such that $B\cup (V\backslash A)\rightarrow_{A'} V'$ then by axiom 4, there is nothing else to prove. So suppose by contradiction that there exists no such $A'$. Therefore by axiom 2, we must have that  
+
+\begin{equation}
+V'\rightarrow_{A'} B\cup (V\backslash A)
+\label{Cont'}
+\end{equation}
+for some $A'$.
+
+By axiom 1, (\ref{Cont'}) and (\ref{Cont'2}), we have that $V'\backslash A'\subseteq B\cup (V\backslash A)$ and $V'\backslash A=V\backslash A \subseteq B\cup (V\backslash A)$. So $V'\backslash (A\cap A')\subseteq B\cup (V\backslash A)$. Thus $B\cup (V\backslash A)= B'\cup (V'\backslash ( A\cap A'))$ for some $B'\subseteq B \subseteq A$. Moreover, by axiom 1 $B'\subseteq A'$ so $B'\subseteq A\cap A'$. Thus by axiom 3 and (\ref{Cont'}), 
+\begin{equation}
+V'\rightarrow_{A\cap A'} B\cup (V\backslash A)
+\label{Cont'4}
+\end{equation}
+Furthermore, by the claim we have that 
+
+\begin{equation} 
+V\cap V'\rightarrow_A V'
+\label{Cont'3}
+\end{equation}
+It is clear that $(V\cap V')\backslash A \subseteq V'$ and $(V\cap V')\backslash A' \subseteq V'$. So $V'$ can be written $V'= B''\cup  ((V\cap V')\backslash (A'\cap A))$. Note that $B''\subseteq A\cap A'$, otherwise axiom 1 and (\ref{Cont'3}) would lead to a contradiction. Thus we can apply axiom 3 to (\ref{Cont'3}) and we have 
+\begin{equation}
+V\cap V'\rightarrow_{A\cap A'} V'
+\end{equation}
+By (\ref{Cont'3}), (\ref{Cont'4}) and axiom 5 we have that $B\cup (V\backslash A)\rightarrow_{A\cap A'}V'$. Which contradicts the hypothesis and completes the proof of Lemma 1.  
+
+\qed
+\\
+
+Lemma 1 states that that when the values system of the DM moves from $V$ to $V'$ while the decision maker is aware of $A$, then every value system available to the DM ($B\subseteq A$) and that contains the set of implicit values of ($V\backslash A$) should also leads to $V'$. Conceptually it implies a twofold locality. It implies local completeness in the sense that when $V'$ is linked to $V$, every set that is available from ($A, V$) should also b linked to $V'$. It implies local maximization in the sense that the DM alway chooses the "best" system. As it will become clear with \ref{Prop3} the notion of "best" is constrained but does not depends on awareness. This means that when the DM is aware of value of which he does not change the motivational status, you can erase this value from his awareness and get the same preferences change. In other words, while being aware of a value does not imply to adopt (or reject) it, it implies the capacity to adopt it.
+
+ Before characterizing the preference formation rules that are induced by partial deliberation preference some definition are worth mentioning notably because they play crucial role in the construction of $\trianglelefteq$.  The first definition is about paths between values systems. The idea is that while there might be no direct transition from one system of value to another, while it is still possible to rank these system because there a path between them. Therefore, the notion of path gives information on the preference formation rule that a direct relation do not.  
+\begin{definition} We say that there is a path from $V$ to $V'$ when there exists $n$, $(V_k)_{k\in [|1,n-1|]}$ $\text{ and }(A_k)_{k\in[|1,n|]}$ such that 
+\begin{equation}
+ V\rightarrow_{A_1} V_1 \rightarrow_{A_2}...\rightarrow_{A_{n-1}} V_{n-1}\rightarrow_{A_n} V
+\end{equation}
+In what follow I will denote such a path $V\rightarrow_{(A_n)} V,$.
+
+
+When there is no path of length lower than $k$ between $V$ and $V'$ I will write $V\bowtie_k V'$ and $V\bowtie V'$ when there is no path at all.
+\end{definition} 
+
+
+Using the notion path we can formulate a last axiom.
+\\
+
+\noindent
+\textbf{Axiom 6 : \textit{"Axiological neutrality within closed paths."}} If $V,V'$ and $A$, $V\rightarrow_{(A_n)} V'\rightarrow_{A} V$ then $V \rightarrow_{A} V'$.
+\\
+
+This axiom says that if there is a cycle linking $V$ to $V'$, then the two value systems should be axiologically equivalent. It allows to insure that the DM does not move from a values system $V$ to $V'$ if the former is "better" than the latter. One can see this axiom as a statement of acyclicity. The family  $(\rightarrow_{A})_{A\in\mathcal{A}}$ is therefore understood as a hierarchy that provides a ranking between different value systems. 
+\\ 
+
+\begin{proposition}
+
+The family $(\rightarrow_{A})_{A\in\mathcal{V}}$ is a preference formation rule that satisfies Axioms 1-6 if and only if it is induced by partial deliberation.
+\label{Prop1}
+\end{proposition}  
+
+
+\noindent
+\textbf{Proof:} We start with the \textit{"only if"} part. Define the relation $\trianglelefteq^*$ as follow. For all $V,V'\in\mathcal{V}$,
+\begin{equation}
+V \trianglelefteq^* V' \iff \exists n, (V_k)_{k\in\{1,2,...,n-1\}}\text{ and }(A_k)_{k\in\{1,2,...,n\}}, V\rightarrow_{A_1} V_1 \rightarrow_{A_2}...\rightarrow_{A_{n-1}} V_{n-1}\rightarrow_{A_n}V'
+\end{equation}
+It is easy to check that, $\trianglelefteq^*$ is transitive. Suppose we have.
+
+
+\begin{equation}
+V\rightarrow_A V'
+\label{Cont6}
+\end{equation}
+By definition we have that, $V\trianglelefteq^* V'$. By axiom 1 it is necessary that $V\backslash A\subseteq V'$, $V'\backslash V\subseteq A$ and $V\backslash V'\subseteq A$, so $V'=B'\cup (V\backslash A)$ for some $B'\subseteq A$. Thus, we can apply Lemma 1, so that for all $B\subseteq A$, $B\cup (V\backslash A)\rightarrow_A V'$. 
+
+Let $V$ and $V'$ be such that for all $B \subseteq A$,  $B\cup (V\backslash A)\trianglelefteq^* V'$ with $V\backslash A \subseteq V'\subseteq A\cup V$. Suppose by contradiction that it is wrong that $V\rightarrow_A V'$. We thus know that $V\rightarrow_A V''$ for some $V''\not= V'$ which, by Lemma 1 and the fact that $V'\subseteq A\cup V$ implies that 
+
+\begin{equation}
+V'\rightarrow_A V''
+\label{Cont'7}
+\end{equation}
+
+By axiom 1, $V''= B''\cup (V\backslash A)$ for some $B\subseteq A$, so by definition of $\trianglelefteq^*$ we have that 
+
+\begin{equation}
+ V''\rightarrow_{A_1} V_1 \rightarrow_{A_2}...\rightarrow_{A_{n-1}} V_{n-1}\rightarrow_{A_n}V'
+\label{Cont'6}
+\end{equation}
+for some $(n,(V_k)_{k\in [|1,n|]}, (A_k)_{k\in[|1,n|]})$. Therefore by axiom 6, (\ref{Cont'6}) and (\ref{Cont'7}) we have that $V''\rightarrow_A V'$. Thus by axiom 5, $V\rightarrow_A V'$. 
+
+To complete the proof we need to find a complete relation $\triangleleft$ such that $\triangleleft^* \subseteq \trianglelefteq$. By Szpilrajn's theorem we know that such extension exists for $\triangleleft^*$
+
+Which complete the \textit{"only if"} part of the proof. 
+
+
+ Reciprocally, suppose there exists $\trianglelefteq$ such that (\ref{TH1}) is satisfied. Let $V,V'$ and $A$ such that $V\rightarrow_A V'$. By (\ref{TH1}), $V'=(V'\cap A)\cup (V\backslash A)$ and $V\triangle V' \subseteq A$. So axiom 1 holds. Suppose $V\rightarrow_A V'$. This is equivalent to $V\trianglelefteq V'$ and the fact that for all $B\subseteq A, B\cup (V\backslash A )\trianglelefteq V'$. So for all $B\subseteq A$, $B\cup (V\backslash A )\rightarrow_A V'$ and $B\cup (V\backslash A )\bowtie_1 V'$ is false. So axiom 2 holds. Let $A,A'$ and $B$ such that $B\subseteq A \subseteq A'$,  $V\rightarrow_{A'} B\cup (V\backslash A)$. Thus, since axiom 1 holds, $ B'\cup (V\backslash A')\trianglelefteq B\cup (V\backslash A)$ for all $B'\subset A'$. Since $V\backslash A\subseteq V$, we can write that $ B''\cup (V\backslash A)$, with $B''\subseteq A\cup A' = A'$. So it is true that for all $B''\subseteq A$, $ V=B''\cup (V\backslash A)\trianglelefteq B\cup (V\backslash A)$, which implies that $V\rightarrow_A B\cup (V\backslash A)$. Therefore, axiom 3 holds. Suppose, let $A,A'$ and $B$ such that $B\cup (V\backslash A )\rightarrow_{A'} V'$ and $V\rightarrow_A V'$. Then for all $B'\subseteq A$, $B'\cup (V\backslash A) \trianglelefteq V'$ and $B\subseteq A$ so $B\cup (V\backslash A )\rightarrow_{A} V'$. Thus axiom 4 holds. Let $V,V', V''$ and $A$ be such that $V\rightarrow_A V'\rightarrow_A V''$. Then we have that $B\cup (V\backslash A)\triangleleft  V'$ for all $B\subseteq A$. Since by axiom 1 $V\backslash A = V'\backslash A = V''\backslash A$, taking $B= V'\backslash V \subseteq A$, we obtain that axiom 5 is satisfied. Finally, suppose that  $V,V'$ and $A$, $V\rightarrow_{(A_n)} V'\rightarrow_{A} V$. Therefore, by transitivity of $\trianglelefteq$, $V\equiv V'$. Since, $A\cap V \subseteq A$ and $A\cap V'\subseteq A$ and, by axiom 1, $V\backslash A=V'\backslash A$, we have that $V'\rightarrow_A$. Therefore axiom 6 holds.
+ 
+ \qed
+ 
+  Note that this relation is not unique. This is due to the fact that there may be no path between two value systems. To see this, simply consider $\hat{V}=\{a,b\}$, and two relations of axiological consistency $\trianglelefteq^1$ and $\trianglelefteq^2$ such that $\{a\}\triangleleft^1\{b\}\triangleleft^1\{a,b\}$ and $\{b\}\triangleleft^2\{a\}\triangleleft^2\{a,b\}$. In both cases there can be no $A$ such that $\{a\}\rightarrow_A \{b\}$ or $\{a\}\rightarrow_A \{b\}$ because on one hand axiom 1 implies that such an $A$ contains both $a$ and $b$, but on another hand if $A=\{a,b\}$ then in both cases $\{a\}\rightarrow_A \{a,b\}$ and $\{b\}\rightarrow_A \{a,b\}$ and not $\{a,b\}\rightarrow_A \{b\}$ and $\{a,b\}\rightarrow_A \{a\}$. This is due to the fact that, in some cases, the preference formation rule does not give enough information to design a complete relation. 
+  
+  In the light of these remarks, it can be established a general characterization of none feasible paths as the couple from $\mathcal{V}\times\mathcal{V}$ in which the relation of consistency is not unique. To do so denote $E^{\rightarrow}$ the set of $\trianglelefteq$ inducing the preference formation rule $(\rightarrow_A)_{A\in\mathcal{A}}$.
+  
+ \begin{proposition} Let $(\rightarrow_A)_{A\in\mathcal{A}}$ be a preference formation rule induced by partial deliberation. Then for any $\triangleleft$ inducing the preference formation rule $(\rightarrow_A)_{A\in\mathcal{A}}$
+ 
+ \begin{equation*}
+ \bowtie = \trianglelefteq \backslash \big(\bigcup_{\trianglelefteq' \in E^\rightarrow}\trianglelefteq'\big)
+ \end{equation*}
+ 
+ \end{proposition}
+ 
+ \begin{proof}
+ Not written yet.
+ \end{proof}
+ 
+ It is not straightforward to give a more explicit account of preference formation rules in which there can be two value systems that are not linked by a path of awareness.In such a general setting, it also not obvious as well to exhibit the kind of structure that will implies that $V\bowtie V'$. In fact, some relations of axiological consistency allow to link all the value systems. Take $\hat{V}= \{a,b,c\}$ and a relation of axiological consistency $\trianglelefteq$ such that:
+ \[
+ \{a\}\triangleleft \{a,b\} \triangleleft \{b\}\triangleleft \{b,c\}\triangleleft \{c\}\triangleleft \{a,c\}\triangleleft\{a,b,c\}
+ \]
+ 
+ This gives the following preference formation rule in which every subsets of $\hat{V}$ are connected by an awareness path. 
+  \[
+ \{a\}\rightarrow_b\{a,b\} \rightarrow_a \{b\}\rightarrow_c \{b,c\}\rightarrow_b \{c\}\rightarrow_a \{a,c\}\rightarrow_b\{a,b,c\}
+ \]
+ 
+ 
+ Conceptually this structure of the formation preference rule However, the relation of axiological consistency does not allow to connect directly the system of values $\{a,b\}$ to the system $\{b,c\}$ since one would need the DM that commits to $\{a,b\}$ to become aware of $c$ which would lead him to commits to $\{a,b,c\}$ in instead of $\{b,c\}$. Such phenomenon emphasizes an interesting property of partial deliberation: there is a difference between becoming aware sequentially of a set of values and becoming aware of all these values at the same time. The reason is that by becoming aware sequentially of values the DM has less flexibility in the choice of his value system. It is possible to give an account of these kinds of situation, but I have been unable to characterize them.
+
+\begin{proposition}
+Consider a preference formation rule $(\rightarrow_A)_{A\in \mathcal{A}}$ driven by awareness. Let $V,V'$ and $V''$ such that $V\subseteq V' \subseteq V''$.  If for no $A$, either $V'\rightarrow_A V''$ or $V'\rightarrow_A V$ then $V\bowtie_1 V''$.
+
+\end{proposition}
+
+\noindent
+\textbf{Proof:} We first prove two two following assertion. 
+\begin{enumerate}
+\item If $V\rightarrow_A V''$ then $V'\rightarrow_A V''$
+\item If $V''\rightarrow_A V$ then $V'\rightarrow_A V$
+\end{enumerate}
+To prove this, suppose that  $V\rightarrow_A V''$. From axiom 1 and the fact that  $V\subseteq V' \subseteq V''$, we have  $V'\backslash A\subseteq V''\backslash A = V\backslash A \subseteq V'\backslash A$.  Thus  $V''\backslash A = V\backslash A = V'\backslash A$. Suppose that $V\rightarrow_A V''$, then by   axiom 2 $\forall B \subseteq A$, $B\cup (V\backslash A) \rightarrow_A V''$ and thus  $B\cup (V'\backslash A) \rightarrow_A V''$. Moreover, by axiom 1 and  the fact that $V\subseteq V'$, we have that $V''\backslash V' \subseteq V''\backslash V \subseteq A$. So we can take $B= V' \cap A$ and we obtain that $V' \rightarrow_A V''$ which proves \textit{1.} The proof of \textit{2.} is similar and left to the reader. Suppose now that there is no $A$ such that either $V'\rightarrow_A V''$ or $V'\rightarrow_A V$. Then by contraposition of \textit{1.} and \textit{2.}  there is no $A$ such that either $V\rightarrow_A V''$ or $V''\rightarrow_A V$ and $V\bowtie_1 V''$, which completes the proof. 
+
+
+\qed
+
+
+
+
+
+
+\noindent
+\textbf{Example: }
+To see that reverse of this proposition is not true, take $V= \{a\}$, $V'= \{a,b,c\}$ and $V''=\{a,b,c,d\}$ and suppose the axiological hierarchy is such that $V'\triangleleft V''\triangleleft V \triangleleft \{a,b\}$. Here we have that $V'\rightarrow_d V''$,  $V\bowtie_1 V''$. Indeed ,  since $V''\triangleleft V $ for no $A$ , $V''\rightarrow_A V $. Suppose then that $\exists A$, such that $V''\rightarrow_A V$. By axiom 1, $\{b,c,d\}\subseteq A$. But since $V \triangleleft \{a,b\}$, we have that $V \rightarrow_A \{a,b\}$ for any$A\supseteq \{b,c,d\}$, and not $\{a,b\}\rightarrow_A V$. Therefore, for no $A$ ,  $V''\rightarrow_A V$ otherwise axiom 2 would be contradicted. 
+
+\section{Some peculiar axiological structures: }
+
+
+\subsection{The "Anything goes" structure}
+
+A first structure is based on the principle that every value is good in itself. In other words implicit values play no role in the process of preference formation. Moreover, the fact that there is no bad values implies that each time the DM becomes aware of a value he should commits to it. Therefore, from the point of view of the preference formation rule an "anything goes" structure can be defined as follow.
+
+\begin{definition} A preference formation rule $(\rightarrow_A)_{A\in \mathcal{A}}$ relies on an "anything goes structure" if 
+for all $A \not \subseteq V\in \mathcal{V}$ , $V\rightarrow_{A}V\cup A$.
+\end{definition}
+It easy to check that a preference formation rule that relies on an "anything goes" structure also relies on, partial deliberation. Therefore it is induced by a relation of axiological consistency. What kind of restriction the "anything goes" structure implies on this relation? The next proposition simply states that the DM is better off when committing to more values.
+
+
+
+
+\begin{proposition}
+If the family $(\rightarrow_{A})_{A\in\mathcal{V}}$ is a preference formation rule relies an "anything goes" structure, if and only if it is induced by a monotonic relation of axiological consistency $\triangleleft$, i.e.: \[
+V\subseteq V' \Rightarrow V\trianglelefteq V'
+\] 
+\label{Prop'4}
+\end{proposition}
+
+\noindent
+\textbf{Proof:} Suppose that $(\rightarrow_{A})_{A\in\mathcal{V}}$ is induced by a monotonic relation of axiological consistency $\trianglelefteq$.  We need to check the property is satisfied. Because the hierarchy $\trianglelefteq$ is monotonic and $V\subset V\cup A$, for every $A$, one has $V\trianglelefteq V\cup A$. Moreover, for all $B\subset A$, $V\backslash A\cup B\trianglelefteq V\cup C$, so  $V\rightarrow_{A}V\cup A$. 
+
+Conversely, suppose that $V\subseteq V'$ that $(\rightarrow_{A})_{A\in\mathcal{V}}$ relies on an "anything goes" structure. It is easy to check that $(\rightarrow_{A})_{A\in\mathcal{V}}$ satisfies axioms 1-3 so there exists $\triangleleft$ that satisfies \ref{TH1}. By proposition \ref{Prop1}, there exists a hierarchy of values $\trianglelefteq$ satisfying equation (\ref{TH1}). So by the property  $V\rightarrow_{V'}V\cup V'= V'$ and $V\trianglelefteq V'$.
+
+\qed
+\vspace{0,5cm}
+
+
+What kind of preference changes does such structure rule out? As suggested by proposition \ref{Prop'4}, there exists a path between two value systems only if one of them includes this other. When they are not, the relation of axiological consistency is has to be completed.  
+
+\begin{proposition}
+If a preference formation rule relies on an "anything goes" structure then the following proposition are equivalent:
+\begin{enumerate}
+\item $V \bowtie_1 V$
+\item $V\bowtie V'$
+\item $V\not\subseteq V'\mbox{ and }V'\not\subseteq V$
+\label{Prop5}
+\end{enumerate}
+\end{proposition}
+
+\noindent 
+\textbf{Proof:} By definition we have that $\textit{2.}\implies \textit{1}$. Suppose that \textit{3.} is not satisfied. Then either $V\subseteq V'\mbox{ or }V'\subseteq V$. W.l.o.g suppose $V\subseteq V'$. Let $A= V'\backslash V$, then since $(\rightarrow_{A})_{A\in\mathcal{A}}$ relies on an "anything goes" structure $V\rightarrow_{A} V'$. Thus \textit{2.}$\implies$ \textit{3.}. Suppose \textit{3.}. By contradiction, suppose that there is a path $(n,(A_k)_{k\in [|1,n|]} ,(V_k)_{k\in [|1,n|]}$ between $V$ and $V'$. According to axiom 1 then $V\triangle V'\subseteq \displaystyle \bigcup_{k\in [|1,n|]} A_k$ but since $(\rightarrow_{A})_{A\in\mathcal{A}}$ relies on an "anything goes" structure then $V\subset V'$ which contradicts \textit{3.}
+
+\qed
+
+The consequences of (\ref{Prop5}) are threefold. First, when they contain specific values, two value systems cannot be compared from the point of view of the relation of axiological consistency and, consequently, it impossible that path conducts from one system of values to the other. In fact, they there is an upper path between these system and their union and a lower one with their intersection. It can be shown that, for preference formation rule induced by partial deliberation, this situation occurs either when $\trianglelefteq = \subseteq$.
+
+\begin{proposition} Let $(\rightarrow_A)_{A\in\mathcal{A}}$ be a preference formation rule induced by partial deliberation. Then:
+\begin{equation*}
+\bowtie=\bowtie_1 \iff \subseteq = \trianglelefteq
+\end{equation*}
+\end{proposition}
+
+\begin{proof}
+The proof is left to the reader. 
+\end{proof}
+
+
+
+Second, preference formation rules that rely on an "anything goes" structure there is no difference between a sequential acquisition of values and a simultaneous one. Interpreting this is straightforward. Because there is no role for background values in the process of preference formation there is no room for inertia in the formation of preferences. Once again, it possible to prove that this property characterizes the "anything goes structure".  
+
+\begin{proposition} Let $(\rightarrow_A)_{A\in\mathcal{A}}$ be a preference formation rule induced by partial deliberation. Then the following propositions are equivalent 
+
+\begin{enumerate}
+\item For all $(V, A)$ and $B,B'\subseteq A$, $B\cup V\backslash A \rightarrow_A B'\cup V\backslash A \iff B\rightarrow_A B'$
+\item $\subseteq = \trianglelefteq $
+\end{enumerate}
+\end{proposition}
+
+\begin{proof}
+The proof is left to the reader. 
+\end{proof}
+Third the 
+
+
+
+\subsection{Partitional structure}
+
+The second structure of interest is based on the principle that values are structured into antagonists clusters. This means that the total set of values can be partitioned into classes (1) in which values are complementaries and (2) in which values of different classes are contradicting each other. From the point of view of the preference formation rule, this structure can be defined as follow.  
+
+
+\begin{definition} The preference formation rule  $(\rightarrow_A)_{A\in\mathcal{A}}$ relies on a partitional structure if there exists a partition of $\hat{V}$ denoted $\mathcal{P}$ such that for all $(V,A)$ and for all $B\subseteq A$:
+\begin{equation}
+B\cup (V\backslash A) \rightarrow_A (P\cap A) \cup (V\backslash A)
+\end{equation}
+for some $P\in\mathcal{P}$.
+\label{partition1}
+\end{definition}
+
+Note that the "anything goes structures" can be seen as a peculiar case of partitioned structure in which the partition is made of only one class. However, contrary to "anything goes structures", the background values play a key role in "partitioned structures". Indeed it is not true that: 
+
+\begin{equation*}
+B\cup (V\backslash A) \rightarrow_A (P\cap A) \cup (V\backslash A) \iff 
+B \rightarrow_A (P\cap A) 
+\end{equation*}
+since the values in $B$ might lead to another set of the partition $P\cap A$ when $V\backslash A$: the preference change is conditioned by the background values of the DM. Another consequence of this that sequential changes of awareness induce different value systems. It allows for the DM to adopt contradictory values. To see this let's take examples. 
+\\
+
+\noindent
+\textbf{Examples :} Take $\{1_1,2_1,3_1,4_1,1_2,2_2, 3_2,4_2\}$ as the set $\hat{V}$ partitioned by $\mathcal{B}= \{\{1_1,2_1,3_1,4_1\},\\ \{1_2,2_2,3_2,4_2\}\}$. Assume that for $k,k'\in \{1,2\}$, $\{i_k\}\triangleleft \{j_{k'}\}$ if and only if $i<j$. To understand the evolution of the values system we need a rule that determines which of the partition dominates the other. For how to say whether $\{1_1,2_1\}$ ranks better than $\{3_2\}$.
+
+\begin{enumerate}
+\item  Suppose as a first example that a set $V$ ranks better than $V'$ when its maximal value is ranks better than the maximal value of $V'$. First, note that while $\{3_1, 1_2\}\rightarrow_{\{2_2\}}\{3_1, 1_1\}$
+we have that $\{1_2\}\rightarrow_{\{2_2\}}\{2_2\}$. Thus the background values play a key role in a "partitioned structure". 
+
+But it is also worth mentioning that, when the awareness changes sequentially we have that:
+\begin{equation*}
+\{1_1\}\rightarrow_{\{1_1,1_2,2_2\}}\{1_2,2_2\}\rightarrow_{\{2_2,3_1\}}\{2_2,3_1\}
+\end{equation*} 
+Therefore, the DM can adhere to contradicting values even if these values were not in his background initially. But when it changes simultaneously we get:
+\begin{equation*}
+\{1_1\}\rightarrow_{\{1_1,1_2,2_2,3_1\}}\{3_1\}
+\end{equation*}
+the \textit{ex post} outcome being different. 
+\item As a second example, one can assume that $V$ ranks better than $V'$ when the sum of it values is bigger. In such a case we have that, 
+
+\begin{equation*}
+\{1_1\}\rightarrow_{\{1_1,1_2,2_2\}}\{1_2,2_2\}\rightarrow_{\{2_2,3_1\}}\{1_2,2_2\}
+\end{equation*} 
+Note that with such a rule the sequentiality is satisfied with the same awareness and the same initial system of values. 
+\end{enumerate}
+
+
+
+\begin{proposition} The preference formation rule $(\rightarrow_A)_{A\in\mathcal{A}}$ relies on a partitional structure if and only if it is induced by a clustering relation of axiological consistency $\trianglelefteq$, i.e. satisfying for all $v,v'\not\in V$:
+\begin{enumerate}
+\item Let $v,v'\not\in V$. If $V\trianglelefteq V+v\trianglelefteq V+vv'$ then $V+v\trianglelefteq V+vv'$. 
+\item $v,v'\not\in V$ $V\trianglelefteq V+v$ and $v\trianglelefteq vv'$ if and only if $V+v \trianglelefteq V+vv'$
+\item Let $(v_k)_{k\in^\sharp\mathcal{P}}\in V$ such that for all $i,j$ with $i\not=j$, $v_iv_j\triangleleft v_i$ and $C=\{v_k\}$, we have that for all $C'\subseteq C$, $V\triangleleft V\backslash (C'-v_k)$ for some $k$.  
+\end{enumerate}
+\end{proposition}
+
+
+\begin{proof}
+To show the \textit{if part}, suppose $(\rightarrow_A)_{A\in\mathcal{A}}$ is induced by a clustering relation of axiological consistency $\trianglelefteq$. For all $v\in \hat{V}$,  $P_v= \{v'\in \hat{V}: v\trianglelefteq vv'\}$. Note that $v\in P_v$. Moreover, if $v'\in B_v$ then by definition $\emptyset \trianglelefteq \emptyset +v \trianglelefteq \emptyset +vv'$ and thus $v' \trianglelefteq vv'$ and $v\in B_{v'}$. Thus, by symmetry, for all $v,v'\in \hat{V}$, we have that either $P_v= P_{v'}$ or $P_v\cap  P_{v'}= \emptyset$. Therefore, $\mathcal{P}\equiv\{P_v: v\in \hat{V}\}$ is a partition. We now have to prove that $\mathcal{P}$ is the candidate to have (\ref{partition1}) satisfied. We know that $\trianglelefteq$ induces $(\rightarrow_A)_{A\in\mathcal{A}}$. Thus we can use (\ref{TH1}). Let $A\in \mathcal{A}$. Let $B\subseteq A$. Suppose there exists $n_0$ such that for all $k\in [|1,n_0|]$, $v_k\in P_k\cap B$ with $P_k \in \mathcal{P}$ and $P_k\not= P_{k'}$ if $k=k'$. Then by the third property of $\triangleleft$, there exists $k$ such that $B_0\cup(V\backslash A)\trianglelefteq \big(B_0\backslash (C_0-v_k)\big)\cup(V\backslash A)$ with $C\subset \displaystyle \bigcup_{\substack{i\in [|1,n_0|] \\ i\not= k}} \{v_i\}$. Denoting $B_1=B_0\backslash (C_0-v_k)$ we can apply the same process and get the existence of $n_1\leq n_0$ such that $v_{k'}\in P_{k'}\cap B_1$ with $P_k \in \mathcal{P}$ and $P_k\not= P_{k'}$ if $k=k'$ $v'_k$ such that $B_1\cup(V\backslash A)\trianglelefteq \big(B_1\backslash (C_1-v'_{k'})\big)\cup(V\backslash A)$ with $C\subset \displaystyle \bigcup_{\substack{i\in [|1,n_1|] \\ i\not= k'}} \{v_i\}$. Moreover, $v_k$ and $v'_{k'}$ must belongs to the same $P_k$. Otherwise by \textit{2.} we would have that 
+$$\big(B_1\backslash (C_1-v'_k)\big)\cup(V\backslash A)=\big(B_0\backslash (C_0\cup C_1 -v'_kv_k)\big)\cup(V\backslash A)\triangleleft \big(B_0\backslash (C_0\cup C_1 -v'_k)\big)\cup(V\backslash A)$$
+ 
+ Therefore by induction on a finite set, $B' \cup (V\backslash A) \trianglelefteq B\cup (V\backslash A)$ for all $B'\in A$ implies that $B\subseteq P_k$ and since $B\subseteq A$, $B\subseteq P_k\cap A$. Now  suppose $\forall B'\subseteq P_k\cap A$  $B\subseteq P_k\cap A$ is such that $B' \cup (V\backslash A) \trianglelefteq B\cup (V\backslash A)$. Let $v\in P_k\cap A \backslash B$. Since $B\not= \emptyset$ there exists $v'\in B$ such that $(B-v)\cup (V\backslash A)\trianglelefteq B\cup (V\backslash A)$. Thus by \textit{2.} $B\cup (V\backslash A)\triangleleft (B+v)\cup (V\backslash A)$. Which contradicts the hypothesis. Thus, $B=P_k\cap A.$ Thus, there exists a partition $\mathcal{P}$ such all $B\subseteq A$, $B\cup (V\backslash A)\rightarrow_A P_k\cap A\cup (V\backslash A)$ for some $P\in \mathcal{P}$.
+ 
+ Conversely, let's prove that if $(\rightarrow_A)_{A\in \mathcal{A}}$ relies on a partitioned structure, axioms 1-6 hold. For the first axiom, it is clear that for all $B\subseteq A$, $B\cup (V\backslash A) \triangle (P\cap A) \cup (V\backslash A)\subseteq A$. SO axiom 1 holds. Since  $V\rightarrow_A (P\cap A) \cup (V\backslash A)$ implies that for all $B\subseteq A$, $B\cup (V\backslash A) \rightarrow_A (P\cap A) \cup (V\backslash A)$ axiom 2 holds. If, $V\rightarrow_{A'} B \cup V\backslash A$ for some $B\subseteq A \subseteq A'$, then there exists $P\in \mathcal{P}$ such that $B=P\cap A'= P\cap A$ so $V\rightarrow_{A} B \cup V\backslash A$. So axiom 3 holds. Suppose for some $A,A'$ and $B\subseteq A$, $V\rightarrow_{A}V'$ and $B\cup (V\backslash A)\rightarrow_{A'} V'$. then there exists $P\in \mathcal{P}$ such that $V'= A\cap P\cup (V\backslash A) =  A'\cap P\cup (V\backslash A')$. But $V\backslash A'=V\backslash A$ so $A\cap P= A'\cap P$ and  $V\rightarrow_{A}V'$. So axiom 4 holds. Suppose $V,V', V''$ and $A$ such that $V\rightarrow_A V' \rightarrow_A V''$. In this case, there simply exists $P$ such that $V' = (P\cap A)\cup (V\backslash A)  = V''$. So $V'' \rightarrow_A V'$. So axiom 5 holds. Now let $V,V'$ and $A$, $V\rightarrow_{(A_n)} V'\rightarrow_{A} V$. $V'\rightarrow_{A}V$ so there exists $P\in \mathcal{P}$ such that $V= (A\cap P)\cup (V'\backslash A)$ 
+   
+
+
+\end{proof}
+
+\section{Constraining awareness path}
+In this section I am interested in situation in which awareness paths are constrained, i.e $\mathcal{A}\subset2^{\hat{V}}$
+
+\section{An euclidean framework:}
+
+I now slightly depart from the framework of Dietrich and List (2013) to a framework that not only includes the set of values that DM adhere to, but also a hierarchy between these values. The DM behavior is now characterized by a preference relation $\preceq_{\ll}$ that depends on $\ll \subseteq \hat{V}\times \hat{V}$ which represents a hierarchy between values. I require $\ll$ to be an order, i.e, reflexive, complete and transitive. Consequently, it is represented by an unique (up to a monotone transformation) utility function $u$. With this representation we can define a motivational state in a vectorial fashion.
+A motivational state $v$ is a vector of $[0,1]^{|\hat{V}|}$ such that $v=(u(v_1),u(v_2),...)$. I abuse notation and denote $\preceq_{\textbf{v}}$ as the preference relation associated with hierarchy of values $\ll$, this hierarchy being represented by a utility that induces the motivational state $v$.
+
+In the same fashion, alternatives from $X$ are characterized by the intensities with which they correspond to each value. Therefore every $x\in X$ is a vector $x=(x_1,x_2...,)$, in which $x_i$ the intensity with which $x$ corresponds to value $i$. The preference relation $\preceq_{\ll}$ is defined by the (euclidean) distance between elements from $X$ and element from $[0,1]^{|\hat{V}|}$.
+
+\begin{definition}
+We say that $\preceq_{\textbf{v}}$ is induced by a euclidean hierarchy if 
+\begin{equation}
+\textrm{For all }\textbf{x},\textbf{y}\in X, \textbf{y}\preceq_{\textbf{\textbf{v}}} \textbf{x} \iff ||\textbf{v}-\textbf{y}|| \geq ||\textbf{v}-\textbf{x}||
+\end{equation}
+where $||.||$ is the euclidean distance on $X$. 
+\end{definition}
+
+\begin{definition}
+We say that a preference formation rule is induced  by an euclidean hierarchy of values system when there exists a function $\phi$ such that:
+\begin{equation}
+\textbf{v}\rightarrow_A \textbf{v}' \iff \textbf{v}'  = \bigg(\textbf{v}_{|\neg A },\underset{\textbf{v}''_{|A}}{Argmax}\text{ } \phi\big( \textbf{v}_{| \neg A},\textbf{v}''_{|A}\big) \bigg)
+\label{2}
+\end{equation}
+where $\textbf{v}_{|A} = (v_i)_{i\in A}$  
+
+\end{definition}
+
+
+
+\end{document}
